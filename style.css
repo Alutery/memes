@@ -90,6 +90,17 @@ img {
     text-decoration: none;
 }
 
+.meme_link {
+    transition: all .5s ease-in-out;
+}
+
+.meme_link:hover {
+    box-shadow: 0px 4px 4px 0px #aa5186;
+    border: 0px solid #A1A6B4;
+
+    transform: translateY(-10px);
+}
+
 .meme_green {
     background-color: #24FF00;
 }
@@ -187,6 +198,11 @@ img {
 .line__right {
     text-align: end;
 }
+
+.meme_link {
+    
+}
+
 
 @media screen and (max-width: 650px) {
     .columns {
