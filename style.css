@@ -205,6 +205,12 @@ img {
 
 
 @media screen and (max-width: 650px) {
+    .header__title{
+        font-size: 60px;
+    }
+    .content__article{
+        padding: 48px 16px;
+    }
     .columns {
         flex-direction: column;
     }
